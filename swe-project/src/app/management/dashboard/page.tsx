@@ -128,7 +128,30 @@ export default function Dashboard() {
       });
     } else if (value === 'monthly') {
       setChartData({
-        labels: ['Jun 2023', 'Jul 2023', 'Aug 2023', 'Sep 2023', 'Oct 2023', 'Nov 2023', 'Dec 2023', 'Jan 2024', 'Feb 2024', 'Mar 2024', 'Apr 2024', 'May 2024', 'Jun 2024', 'Jul 2024', 'Aug 2024', 'Sep 2024', 'Oct 2024', 'Nov 2024', 'Dec 2024', 'Jan 2025', 'Feb 2025', 'Mar 2025', 'Apr 2025', 'May 2025'],
+        labels: ['Jun 2023',
+                 'Jul 2023', 
+                 'Aug 2023', 
+                 'Sep 2023', 
+                 'Oct 2023', 
+                 'Nov 2023', 
+                 'Dec 2023', 
+                 'Jan 2024', 
+                 'Feb 2024', 
+                 'Mar 2024', 
+                 'Apr 2024', 
+                 'May 2024', 
+                 'Jun 2024', 
+                 'Jul 2024', 
+                 'Aug 2024', 
+                 'Sep 2024', 
+                 'Oct 2024', 
+                 'Nov 2024', 
+                 'Dec 2024', 
+                 'Jan 2025', 
+                 'Feb 2025', 
+                 'Mar 2025', 
+                 'Apr 2025', 
+                 'May 2025'],
         datasets: [
           {
             label: 'Average Fatigue Score',

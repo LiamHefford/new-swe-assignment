@@ -41,7 +41,7 @@ const initialState: State = {
   isCircleVisible: false
 };
 
-// Reducer function for state management
+// Function for state management
 function reducer(state: State, action: Action): State {
   switch (action.type) {
     case 'START_TEST':
